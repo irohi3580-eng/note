@@ -28,10 +28,10 @@ CRUD（追加・表示・編集・削除）機能を実装し、基本的なWeb�
 ## 画面イメージ
 
 ### ログイン画面
-![ログイン画面](images/login.png)
+![ログイン画面](image/login.png)
 
 ### メモ一覧画面
-![メモ画面](images/index.png)
+![メモ画面](image/index.png)
 
 ---
 
