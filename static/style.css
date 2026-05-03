@@ -1,0 +1,48 @@
+/* 背景 */
+body {
+  background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+}
+
+/* カード */
+.memo-card {
+  border-radius: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* ホバーで浮く */
+.memo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* ボタン */
+.btn {
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #4e73df;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+}
+
+/* 入力欄 */
+input.form-control {
+  border-radius: 10px 0 0 10px;
+}
+
+/* エラー演出（使ってるなら残す） */
+.shake {
+  animation: shake 0.3s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
